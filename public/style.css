@@ -1,0 +1,23 @@
+.main { 
+  display: flex;
+  justify-content: center;
+  flex-direction: row; 
+  flex-wrap: nowrap;
+}
+
+.col {
+  flex: 1; 
+}
+
+
+#reservation {
+  position: relative; 
+  width: 513px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+
+#modal {
+  z-index: 999;
+}
