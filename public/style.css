@@ -1,3 +1,13 @@
+.flex-container {
+  display: flex; 
+  justify-content: center;
+}
+
+.header {
+  display: inline-block; 
+  justify-self: center; 
+}
+
 .main { 
   display: flex;
   justify-content: center;
@@ -6,15 +16,23 @@
 }
 
 .col {
-  flex: 1; 
+  flex: 60% 35%; 
 }
-
 
 #reservation {
   position: relative; 
   width: 513px;
   margin-bottom: 20px;
   justify-content: center;
+}
+
+#reviews {
+  position: relative;
+  justify-content: center;
+}
+
+#photos {
+  width: 1024px;
 }
 
 
