@@ -8,6 +8,8 @@ app.use(morgan('dev'));
 app.use('/:id', express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+
 app.listen(port, () => {
   console.log(`server running at: http://localhost:${port}`);
 });
