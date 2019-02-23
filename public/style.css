@@ -1,35 +1,18 @@
-.flex-container {
+#page {
+  background: grey;
+}
+
+header {
+  width: 100vw;  
+  background: blue; 
+}
+
+main { 
+  background: red; 
   display: flex; 
   flex-direction: column;
   align-items: center;
-}
-
-img.header {
-  width: 100%;  
-}
-
-.header.container {
-  max-width: 100vw;
-}
-
-.main { 
-  display: flex;
-  justify-content: center;
-  flex-direction: row; 
-  flex-wrap: nowrap;
-}
-
-.col {
-  flex: 50%; 
-}
-
-.col.left {
-
-  margin: 20px;
-}
-
-.col.right {
-  margin: 20px; 
+  justify-content: center; 
 }
 
 #reservation {

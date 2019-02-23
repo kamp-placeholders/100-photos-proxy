@@ -6,35 +6,17 @@
     <title>Clone</title>
   </head>
   <body>
-    <div class="flex-container">
-
-      <div class="header container">
-        <img class="header"
-        src="https://s3-us-west-1.amazonaws.com/placeholders.carousel.photos/rename.png"
-        alt="header" />
-      </div>
-      <div class="main">
-        <div class="col left">
-          <img class="overview"
-          src="https://s3-us-west-1.amazonaws.com/placeholders.carousel.photos/overview.png"
-          alt="overview" />
-  
+      <section id="page">
+          <header>Header</header>
+          <main class="main">Main area
+        
+          </main>
+          <footer>Footer</footer>
+      </section>
+          <div id="reservation"></div>
           <div id="modal"></div>        
           <div id="photos"></div>
-  
-          <img class="menu"
-          src="https://s3-us-west-1.amazonaws.com/placeholders.carousel.photos/menu.png"
-          alt="menu" />
-          
           <div id="reviews"></div>
-          
-        </div>
-  
-        <div class="col right">
-            <div id="reservation"></div>
-            <img class="aside"
-            src="https://s3-us-west-1.amazonaws.com/placeholders.carousel.photos/aside.png"
-            alt="aside" />
         </div>
     </div>
     </div>
@@ -43,9 +25,9 @@
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
 
-    <script src="http://localhost:3004/bundle.js"></script> 
-    <script src="http://localhost:3002/bundle.js"></script> 
-    <script src="http://localhost:3003/bundle.js"></script> 
+    <script src="http://ec2-54-85-101-227.compute-1.amazonaws.com/bundle.js"></script> 
+    <script src="http://reservation-dev.us-east-2.elasticbeanstalk.com/1/bundle.js"></script> 
+    <script src="http://reviews-port-8081-dev2.us-east-2.elasticbeanstalk.com/bundle.js"></script> 
     <script>
       ReactDOM.render(
         React.createElement(photos),
