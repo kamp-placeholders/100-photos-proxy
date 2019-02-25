@@ -2,41 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css">
     <title>Clone</title>
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-      <section id="page">
-          <header>Header</header>
-          <main class="main">Main area
-        
-          </main>
-          <footer>Footer</footer>
-      </section>
-          <div id="reservation"></div>
-          <div id="modal"></div>        
-          <div id="photos"></div>
-          <div id="reviews"></div>
-        </div>
-    </div>
-    </div>
+      <div class="flex-container">
 
+          <div class="header container">
+            <img class="header"
+            src="https://s3-us-west-1.amazonaws.com/placeholders.carousel.photos/OTheader.png"
+            alt="header" />
+          </div>
+          <div class="main">
+            <div class="col left">
+              <img class="overview"
+              src="https://s3-us-west-1.amazonaws.com/placeholders.carousel.photos/OTAboutDescription.png"
+              alt="overview" />
+      
+              <div id="modal"></div>        
+              <div id="photos"></div>
+      
+              <img class="menu"
+              src="https://s3-us-west-1.amazonaws.com/placeholders.carousel.photos/OTMenuFinal.png"
+              alt="menu" />
+              
+              <div id="reviews"></div>
+              
+            </div>ø
+      
+            <div class="col right">
+                <div id="reservation"></div>
+                <img class="aside"
+                src="https://s3-us-west-1.amazonaws.com/placeholders.carousel.photos/OTaside.png"
+                alt="aside" />
+            </div>
+        </div>
+        </div>
+  </div>
+</div>
+</div>
     <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
 
-    <script src="http://ec2-54-85-101-227.compute-1.amazonaws.com/bundle.js"></script> 
-    <script src="http://reservation-dev.us-east-2.elasticbeanstalk.com/1/bundle.js"></script> 
-    <script src="http://reviews-port-8081-dev2.us-east-2.elasticbeanstalk.com/bundle.js"></script> 
+    <script src="http://ec2-54-85-101-227.compute-1.amazonaws.com/restaurants/1/bundle.js"></script> 
+    <script src="http://reservation-dev.us-east-2.elasticbeanstalk.com/restaurants/1/bundle.js"></script>
+   <script src="http://reviews-port-8081-dev2.us-east-2.elasticbeanstalk.com/bundle.js"></script>
     <script>
-      ReactDOM.render(
-        React.createElement(photos),
-        document.getElementById('photos')
-      );
-      ReactDOM.render(
-        React.createElement(reservation),
-        document.getElementById('reservation')
-      );
     </script>
   </body>
 </html>`
